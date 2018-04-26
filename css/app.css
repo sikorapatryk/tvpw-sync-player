@@ -1,7 +1,7 @@
 html, body {
     margin: 0;
     padding: 0;
-    background: #eeeeee;
+    background: #eee;
 }
 
 .container {
@@ -11,7 +11,7 @@ html, body {
 
 .headline {
     font-weight: lighter;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     text-transform: uppercase;
     color: #222;
 }
@@ -50,6 +50,27 @@ html, body {
     right: 0;
     bottom: 0;
   }
+
+.sync-player .right-panel {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 100px;
+    width: 25%;
+}
+
+.sync-player .right-panel .message {
+    padding: 5px;
+    background: rgba(255,255,255,0.5);
+}
+
+.sync-player .right-panel .author {
+    font-weight: bold;
+}
+
+.no-display {
+    display: none;
+}
 
 /** controls **/
 
